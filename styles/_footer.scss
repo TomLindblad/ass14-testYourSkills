@@ -1,0 +1,30 @@
+@use 'colorsfonts';
+
+footer{
+    background-color: colorsfonts.$bgcolor-dark;
+}
+
+.footlink{
+    color: colorsfonts.$main-txtcolor;
+    margin: 8px;
+}
+
+.face:hover{
+    color: rgb(70, 138, 216);
+}
+
+.twitt:hover{
+    color: rgb(70, 216, 209);
+}
+
+.linked:hover{
+    color: rgb(70, 138, 216);
+}
+
+.youtube:hover{
+    color: rgb(231, 8, 8);
+}
+
+.pinterest:hover{
+    color: rgb(235, 30, 30);
+}
