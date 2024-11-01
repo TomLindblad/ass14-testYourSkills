@@ -1,0 +1,21 @@
+@use 'colorsfonts';
+
+#whatOurTouristSay{
+    background-image: url(../images/bg_fifth.png);
+    height: 80%;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sayingContainer{
+    display: flex;
+    background-color: colorsfonts.$bgcolor-dark;
+}
+
+.sayingTextContainer{
+    padding: 40px;
+    line-height: 26px;
+}

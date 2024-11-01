@@ -25,8 +25,8 @@ header{
     font-family: colorsfonts.$josefin;
 }
 
-.centertext{
-    text-align: center;
+h1 {
+    font-size: 8vh;
 }
 
 form{
@@ -44,9 +44,7 @@ nav{
     overflow: hidden;
     list-style-type: none;
     margin: 0 15%;
-    padding: 0;
-    
-    
+    padding: 0;  
 }
 
 .nav-list a{
@@ -67,6 +65,7 @@ nav{
     padding: 18px;
     position: relative;
     line-height: 28px;
+    font-weight: bold;
 }
 a:hover{
     background-color: #b08cd8;
@@ -76,17 +75,6 @@ a:hover{
 
 .nav-list li:not(:first-child){ float:right;}
 
-#spain1{
-    background-image: url(../images/bg_third.png);
-    height: 80%;
-}
-
-#spain2{
-    background-image: url(../images/bg_fourth.png);
-    height: 80%;
-}
-
-#whatOurTouristSay{
-    background-image: url(../images/bg_fifth.png);
-    height: 80%;
+.scrolldown{
+    text-align: center;
 }

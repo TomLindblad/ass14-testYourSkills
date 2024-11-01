@@ -1,0 +1,27 @@
+@use 'colorsfonts';
+
+#spain1{
+    background-image: url(../images/bg_third.png);
+    height: 80%;
+}
+
+#spain2{
+    background-image: url(../images/bg_fourth.png);
+    height: 80%;
+}
+
+.bookNowContainer{
+    display: block;
+    max-width: 510px;
+    width: 100%;
+    background-color: colorsfonts.$bgcolor-opac;
+    padding: 30px 20px;
+}
+
+.flexright{
+    justify-content: flex-end;
+}
+
+.flexleft{
+    justify-content: flex-start;
+}
