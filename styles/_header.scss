@@ -27,11 +27,21 @@ header{
 
 h1 {
     font-size: 8vh;
+    line-height: 10px;
+    margin:10px;
+}
+
+h2{
+    font-size: 2vw;
+    letter-spacing: 7px;
+    font-weight: 300;
+    margin: 20px;
 }
 
 form{
     background-color: white;
     padding: 3px 3px;
+    margin-top: 25px;
 }
 
 #searchbar{
