@@ -36,12 +36,15 @@ button{
     border-style: none;
     color: colorsfonts.$main-txtcolor;
     font-family: colorsfonts.$aleo;
+    font-size: 14px;
     padding: 15px 20px 12px 20px;
     font-weight: 300;
     letter-spacing: 1.2px;
 }
 
 button:hover{
-    opacity: 0.8;
+    background-color: colorsfonts.$hover-color;
+    color: colorsfonts.$bgcolor-dark;
     cursor: pointer;
+    transition: all 0.5s;
 }

@@ -1,5 +1,14 @@
 @use 'colorsfonts';
 
+#whatWeDo{
+    background-color: colorsfonts.$bgcolor-dark;
+    height: 30%;
+}
+
+.iconText{
+    text-align: center;
+    font-size: 36px;
+}
 #spain1{
     background-image: url(../images/bg_third.png);
     height: 80%;

@@ -68,8 +68,8 @@ nav{
     font-weight: bold;
 }
 a:hover{
-    background-color: #b08cd8;
-    color: black;
+    background-color: colorsfonts.$hover-color;
+    color: colorsfonts.$bgcolor-dark;
     transition: all 0.5s;
 }
 
