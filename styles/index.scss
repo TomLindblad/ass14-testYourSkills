@@ -30,3 +30,18 @@ h5, h4{
     align-items: center;
     justify-self: center;
 }
+
+button{
+    background-color: colorsfonts.$main-pagecolor;
+    border-style: none;
+    color: colorsfonts.$main-txtcolor;
+    font-family: colorsfonts.$aleo;
+    padding: 15px 20px 12px 20px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
