@@ -1,0 +1,27 @@
+#whyChooseUs{
+    background-image: url(../images/bg_second.png);
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-container{
+    max-width: 50vw;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-to-left{
+    position: relative;
+    left: -10%;
+}
+
+.img-to-right{
+    position: relative;
+    left: 10%;
+    margin-top: 3%;
+}
